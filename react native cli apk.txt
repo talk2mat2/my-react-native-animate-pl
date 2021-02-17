@@ -1,0 +1,39 @@
+to build apk for using react native cli
+android studio needeed
+open react native project folder on android studio
+
+
+change apk name:
+
+navigate to android app build.gradle
+open the build.gradle file
+ 
+go to line defailtConfige{
+applicationid "come.company.appname"
+versioncode 1 or 1.2 depending on the app version 
+
+}
+
+
+to change app image icon
+ navigate to android studio folder of our project
+select app , on res right click "new" select "image assects"
+on the opened page select Path after select the image path
+
+select next and click finish
+
+
+to build apk
+
+on the androikd studio select build, select generate Signed apk
+
+selct apk on the new image that comes out
+
+select keystore aelect keystore path and key in the password 
+select next select release version select v1, 
+click on finish
+this will generate an apk for you
+it alert generated signed app
+
+if you want a much smaller apk select generate bundle
+or go to build.girdlechange anableseperatebildpercp to "true"
